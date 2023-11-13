@@ -11,6 +11,6 @@ public class AdvancedVideoPlayer extends VideoPlayer{
   @Override
   public void play() {
     videoSource.playVideo();
-    display.show("playing video");
+    display.show("Воспроизведение видео");
   }
 }
